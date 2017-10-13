@@ -1,0 +1,14 @@
+{
+  "gdelt":
+  {
+    "V1":{"dtype":"character", "cmt":""},
+    "V2":{"dtype":"numeric", "cmt":""},
+    "V3":{"dtype":"date", "cmt":""}
+  },
+  "gkg":
+  {
+    "V1":{"dtype":"character", "cmt":""},
+    "V2":{"dtype":"numeric", "cmt":""},
+    "V3":{"dtype":"date", "cmt":""}
+  }
+}
