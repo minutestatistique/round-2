@@ -5,7 +5,7 @@ p <- c("data.table", "ggplot2", "anytime", "testthat", "lubridate", "stringr",
 
 # packages installation
 #-------------------------------------------------------------------------------
-install.packages(p, Ncpus = 1)
+install.packages(p, Ncpus = 32)
 
 rm(p)
 gc()

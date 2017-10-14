@@ -54,3 +54,6 @@ gkg[, SOURCEURLS := MyVectorizedSplit(SOURCEURLS, "<UDIV>")]
 
 object_size(gkg)
 save(gkg, file = "data/RData/gkg_cf.RData")
+
+rm(gkg)
+gc()
