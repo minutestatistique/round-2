@@ -12,7 +12,7 @@ data_def <- fromJSON("conf/data-def.json")
 # data importing
 #-------------------------------------------------------------------------------
 ### gdelt
-gdelt <- fread("data/gdelt.tsv",
+gdelt <- fread("data/gdelt/gdelt.tsv",
                colClasses = rep("character",
                                 length(MyVarNameXtract(data_def, "gdelt"))))
 setnames(gdelt, names(gdelt), MyVarNameXtract(data_def, "gdelt"))
@@ -23,7 +23,7 @@ rm(gdelt)
 gc()
 
 ### gkg
-gkg <- fread("data/gkg.tsv",
+gkg <- fread("data/gkg/gkg.tsv",
              colClasses = rep("character",
                               length(MyVarNameXtract(data_def, "gkg"))))
 testthat::expect_identical(names(gkg), MyVarNameXtract(data_def, "gkg"))
