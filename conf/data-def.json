@@ -73,5 +73,23 @@
     "CAMEOEVENTIDS":{"dtype":"character", "cmt":"GlobalEventIDs separated with ,"},
     "SOURCES":{"dtype":"character", "cmt":"sources separated with ;"},
     "SOURCEURLS":{"dtype":"character", "cmt":"urls separated with <UDIV>"}
+  },
+  "gkgcounts":
+  {
+    "DATE":{"dtype":"date", "dformat":"%Y%m%d", "cmt":""},
+    "NUMARTS":{"dtype":"numeric", "cmt":""},
+    "COUNTTYPE":{"dtype":"character", "cmt":""},
+    "NUMBER":{"dtype":"numeric", "cmt":""},
+    "OBJECTTYPE":{"dtype":"character", "cmt":""},
+    "GEO_TYPE":{"dtype":"numeric", "cmt":""},
+    "GEO_FULLNAME":{"dtype":"character", "cmt":""},
+    "GEO_COUNTRYCODE":{"dtype":"character", "cmt":""},
+    "GEO_ADM1CODE":{"dtype":"character", "cmt":""},
+    "GEO_LAT":{"dtype":"numeric", "cmt":""},
+    "GEO_LONG":{"dtype":"numeric", "cmt":""},
+    "GEO_FEATUREID":{"dtype":"character", "cmt":"numeric but letters may occur"},
+    "CAMEOEVENTIDS":{"dtype":"character", "cmt":"GlobalEventIDs separated with ,"},
+    "SOURCES":{"dtype":"character", "cmt":"sources separated with ;"},
+    "SOURCEURLS":{"dtype":"character", "cmt":"urls separated with <UDIV>"}
   }
 }
