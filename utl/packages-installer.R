@@ -1,7 +1,7 @@
 # packages definition
 #-------------------------------------------------------------------------------
 p <- c("data.table", "ggplot2", "anytime", "testthat", "lubridate", "stringr",
-       "jsonlite")
+       "jsonlite", "pryr")
 
 # packages installation
 #-------------------------------------------------------------------------------

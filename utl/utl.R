@@ -441,3 +441,26 @@ AddMonthsToDate <- function(date, num.added.months,
                                num.added.months,
                                return.first.date))
 }
+
+MyVectorizedLength <- function(v, s) {
+  unlist(lapply(v, function(e) {
+    length(strsplit(e, s, fixed = TRUE)[[1]])
+  }))
+}
+
+MyVectorizedSplit <- function(v, s) {
+  lapply(v, function(e) {
+    strsplit(e, s, fixed = TRUE)[[1]]
+  })
+}
+
+MyVectorizedTONEXtract <- function(l, p) {
+  as.numeric(unlist(lapply(l, function(e) { e[p] })))
+}
+
+# caution: last occurence of delimiter d
+MyVectorizedCollapse <- function(v, d) {
+  unlist(lapply(v, function(e) {
+    paste(e, collapse = d)
+  }))
+}
